@@ -1,10 +1,9 @@
-soma = 0
-for i in range(1,6):
-    print(i)
-    periodo = float(input("Digite o periodo:"))
-    salario = int(input("Digite o salario"))
+i=0
+count=0
 
-    if periodo == 3 or periodo == 5:
-        soma = soma + salario
-
-print("Soma dos salarios: ",soma)
+while i < 20:
+    idade=int(input("Digite a idade dos atletas"))
+    if idade > 17:
+        count+=1
+    i+=1
+print("Jogadores com idade maiores que 17:",count)
